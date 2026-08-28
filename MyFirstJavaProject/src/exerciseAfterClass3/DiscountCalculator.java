@@ -3,11 +3,11 @@ package exerciseAfterClass3;
 public class DiscountCalculator {
 
 
-    /*
+
     public static void main(String[] args) {
         //the price for each item
         //int x = 15;
-        double pricePerItem = 15;
+        double pricePerItem = 15.0;
         //the amount of items
         int quantity = 12;
 
@@ -22,7 +22,7 @@ public class DiscountCalculator {
 
     }
 
-    */
+
 
     public double calculateFinalPrice(int quantity, double unitPrice) {
 
