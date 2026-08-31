@@ -38,6 +38,11 @@ public class SurvivalCamp {
 
         }
 
+        if (energy > 0) {
+            System.out.println();
+            System.out.println("He can survival in 10 days.");
+        }
+
 
     }
 }
