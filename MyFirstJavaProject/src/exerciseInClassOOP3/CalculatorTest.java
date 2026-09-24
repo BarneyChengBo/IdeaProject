@@ -1,4 +1,4 @@
-package exerciseInCLassOOP3;
+package exerciseInClassOOP3;
 
 import java.util.Scanner;
 

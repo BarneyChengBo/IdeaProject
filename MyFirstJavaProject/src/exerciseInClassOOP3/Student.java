@@ -1,4 +1,4 @@
-package exerciseInCLassOOP3;
+package exerciseInClassOOP3;
 
 public class Student {
     //Konstruktorn ska ta in namn och årskurs.

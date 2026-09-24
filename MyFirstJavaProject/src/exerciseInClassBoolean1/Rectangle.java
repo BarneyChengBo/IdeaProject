@@ -17,5 +17,15 @@ public class Rectangle {
         return 2 * ( width + hight );
     }
 
+    public boolean isSquare() {
+        if ( width == hight ) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
+
 
 }

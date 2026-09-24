@@ -1,4 +1,4 @@
-package exerciseInCLassOOP3;
+package exerciseInClassOOP3;
 
 public class StudentMain {
     public static void main(String[] args) {
