@@ -22,20 +22,24 @@ public class ContentPrinter {
 
 
         while (run) {
+
             String text = scan.nextLine();
-            myInput[n] = text;
-            n++;
-            charSum = checker.getChar(myInput);
-            rowSum = checker.getRow(myInput);
 
             if(text.equals("stop")){
                 run = false;
                 break;
             }
 
+            myInput[n] = text;
+            n++;
+            charSum = checker.getChar(myInput);
+            rowSum = checker.getRow(myInput);
+
         }
-        System.out.println( charSum - 4 );
-        System.out.println( rowSum - 1 );
+
+
+        System.out.println( "Den total tecken är: " + charSum  );
+        System.out.println( "Den raden är: " + rowSum   );
 
     }
 
