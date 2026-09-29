@@ -38,8 +38,8 @@ public class ContentPrinter {
         }
 
 
-        System.out.println( "Den total tecken är: " + charSum  );
-        System.out.println( "Den raden är: " + rowSum   );
+        System.out.println( "Total antal tecken : " + charSum  );
+        System.out.println( "Total antal rader : " + rowSum   );
 
     }
 
