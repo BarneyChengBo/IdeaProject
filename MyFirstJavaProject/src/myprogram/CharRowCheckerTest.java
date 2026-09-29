@@ -51,6 +51,20 @@ public class CharRowCheckerTest {
 
     }
 
+    @Test
+
+    public void testGetRowFromEmptyArray(){
+        String[] Array = new String[5];
+
+        CharRowChecker checker = new CharRowChecker();
+
+        int expected = 0;
+        int actual = checker.getRow(Array);
+
+        assertEquals(expected,actual);
+
+    }
+
 
 
 
